@@ -39,20 +39,20 @@ Controls:
 Heuristics:
 
 Manhattan Distance:
-Formula: dx + dy
-Only considers up, down, left, right moves
-Used when diagonal movement is disabled
-Very fast but not accurate when diagonals are possible
+- Formula: dx + dy
+- Only considers up, down, left, right moves
+- Used when diagonal movement is disabled
+- Very fast but not accurate when diagonals are possible
 
 Euclidean Distance:
-Formula: √(dx² + dy²)
-Straight-line “as the crow flies” distance
-Works when diagonal movement is allowed
-Slightly less accurate, needs to explore more nodes because of straight-line distance.
+- Formula: √(dx² + dy²)
+- Straight-line “as the crow flies” distance
+- Works when diagonal movement is allowed
+- Slightly less accurate, needs to explore more nodes because of straight-line distance.
 
 Octile Distance:
-Formula: max(dx, dy) + (√2 − 1) × min(dx, dy)
-Designed for 8-direction grids
-Accounts for diagonal cost = √2
-Most accurate/tight for this project
-Usually explores the fewest nodes
+- Formula: max(dx, dy) + (√2 − 1) × min(dx, dy)
+- Designed for 8-direction grids
+- Accounts for diagonal cost = √2
+- Most accurate/tight for this project
+- Usually explores the fewest nodes
