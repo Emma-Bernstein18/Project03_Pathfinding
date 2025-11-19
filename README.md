@@ -25,16 +25,16 @@ Run the program
 
 Controls:
 
-S	Place Start point (green)
-E	Place End point (red)
-W	Draw/erase walls (black)
-1	Manhattan heuristic (4-direction movement)
-2	Euclidean heuristic (8-direction movement)
-3	Octile heuristic (8-direction movement)
-SPACE	Run the A* algorithm
-C	Clear walls & visualization (keeps start/end)
-R	Full reset (removes everything)
-M	Generate random maze (optional if implemented)
+- S	Place Start point (green)
+- E	Place End point (red)
+- W	Draw/erase walls (black)
+- 1	Manhattan heuristic (4-direction movement)
+- 2	Euclidean heuristic (8-direction movement)
+- 3	Octile heuristic (8-direction movement)
+- SPACE	Run the A* algorithm
+- C	Clear walls & visualization (keeps start/end)
+- R	Full reset (removes everything)
+- M	Generate random maze (optional if implemented)
 
 Heuristics:
 
